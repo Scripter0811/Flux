@@ -1,3 +1,4 @@
+import React from "react";
 import "./globals.css";
 
 export const metadata = {
@@ -5,7 +6,7 @@ export const metadata = {
   description: "Your modern corporate hub.",
 };
 
-export default function RootLayout({ children }) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
       <body
